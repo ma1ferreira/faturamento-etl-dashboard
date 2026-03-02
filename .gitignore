@@ -1,0 +1,11 @@
+myenv/
+venv/
+.env
+__pycache__
+*.pyc
+data/raw/*.csv
+data/processed/*.parquet
+faturamento.db
+faturamento_dataset.csv
+.DS_Store
+.vscode/

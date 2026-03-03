@@ -26,4 +26,3 @@ A aplicação processa um registro de vendas fictício e exibe um dashboard inte
 - **Pathlib**: Gestão dos caminhos dos arquivos
 
 ![sistema-faturamento](https://github.com/user-attachments/assets/d4d8eb13-1488-4835-b62b-4464f00ab902)
-

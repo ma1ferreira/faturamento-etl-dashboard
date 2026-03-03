@@ -25,4 +25,4 @@ A aplicação processa um registro de vendas fictício e exibe um dashboard inte
 - **Matplotlib**: Visualizações gráficas
 - **Pathlib**: Gestão dos caminhos dos arquivos
 
-![sistema-faturamento](.streamlit/dashboard-demo.gif)
+![sistema-faturamento](.streamlit/sistema-faturamento.gif)

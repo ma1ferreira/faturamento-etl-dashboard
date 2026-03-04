@@ -6,6 +6,7 @@ from src.paths import DATA_RAW
 #função recebe um arquivo CSV, lê o conteúdo e traduz os nomes das colunas para português
 #retorna um DataFrame com as colunas traduzidas
 def extrair_dados(arquivo):
+    df = pd.read_csv(arquivo, sep=',', decimal=',')
 
     traducao = {
         "invoice_id": "ID",

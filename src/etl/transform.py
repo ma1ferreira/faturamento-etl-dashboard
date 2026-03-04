@@ -18,7 +18,14 @@ def validar_csv(df, colunas_obrigatorias):
 #retorna o DataFrame com os tipos de dados corrigidos e os registros inválidos removidos
 def limpeza_dados(df):
     df["Data"] = pd.to_datetime(df["Data"])
+
+    
     df["Custo"] = pd.to_numeric(df["Custo"])
+    colunas_numericas = ["Custo", "Receita Total", "Lucro", "Quantidade", "Preço Unitário"]
+    for col in colunas_numericas:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col])
+
     df = df[df["Quantidade"] > 0]
     df = df[df["Preço Unitário"] > 0]
     return df
